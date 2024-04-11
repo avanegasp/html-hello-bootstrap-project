@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.social{
+    padding: 20px 0px 20px 0px;
+}
+
+.icono-instagram{
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.instagram-name{
+    font-size:20px;
+    padding-right: 50px;
+}
+
+.btn{
+    font-size: small;
+    border-radius: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
