@@ -28,3 +28,16 @@
     background-color: lightgray;
     border: 1px solid darkgrey;
 }
+
+.nav-link.active{
+    color:red
+}
+
+.tab-pane{
+    display: none;
+}
+
+.tab-pane:target {
+    display: block; /* Muestra la pestaña que coincide con el id en la URL */
+}
+
