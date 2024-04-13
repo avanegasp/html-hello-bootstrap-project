@@ -35,7 +35,7 @@
                                     <form>
                                         <div class="mb-3">
                                             <label for="message-text" class="col-form-label">Caption:</label>
-                                            <textarea class="form-control" id="message-text"></textarea>
+                                            <textarea class="form-control" id="message-text">Add your caption of your post here</textarea>
                                         </div>
                                         <div class="mb-3">
                                             <i class="camera-modal fa-solid fa-camera"></i>
@@ -80,7 +80,7 @@
                 </a>
             </div>
         </div>
-        <!--Grid fa-table-cells icon-->
+        <!--Grid 3 photos-->
         <div class="container-fluid tab-content">
             <div class="tab-pane" id="home">
                 <div class="row mt-3">
@@ -103,115 +103,110 @@
                         <img src="https://cdn.pixabay.com/photo/2013/03/01/18/40/crispus-87928_1280.jpg" class="img-thumbnail" alt="...">
                     </div>
                     <div class="image col-4">
-                        <img src="https://media.istockphoto.com/id/656230218/es/foto/el-pel%C3%ADcano-rizado-con-un-pico-anaranjado.jpg?s=612x612&w=0&k=20&c=fousRo95Jwd7yg131aW23N8BTECfrGAJY-z29O3ISGk=" class="img-thumbnail" alt="...">
+                        <img src="data:image/jpeg;base64,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" class="img-thumbnail" alt="...">
                     </div>
                 </div>
         
                 <div class="row mt-3">
                     <div class="image col-4">
-                        <img src="https://cdn.pixabay.com/photo/2013/02/01/18/14/url-77169_960_720.jpg" class="img-thumbnail" alt="...">
+                        <img src="https://hablandoencorto.com/wp-content/uploads/2014/01/Tijeras-1-1080x713.jpg" class="img-thumbnail" alt="...">
                     </div>
                     <div class="image col-4">
-                        <img src="https://cdn.pixabay.com/photo/2013/03/01/18/40/crispus-87928_1280.jpg" class="img-thumbnail" alt="...">
+                        <img src="https://content.nationalgeographic.com.es/medio/2022/12/12/fotos-animales-1_079d6ae0_221212155317_1280x720.jpg" class="img-thumbnail" alt="...">
                     </div>
                     <div class="image col-4">
-                        <img src="https://media.istockphoto.com/id/656230218/es/foto/el-pel%C3%ADcano-rizado-con-un-pico-anaranjado.jpg?s=612x612&w=0&k=20&c=fousRo95Jwd7yg131aW23N8BTECfrGAJY-z29O3ISGk=" class="img-thumbnail" alt="...">
+                        <img src="https://i.blogs.es/a709d5/kevin-biskaborn/1366_2000.jpg" class="img-thumbnail" alt="...">
                     </div>
                 </div>        
             </div>
         </div>
         <!--Only one photo-->
         <div class="container-fluid tab-content mt-3">
-            <div class="tab-pane d-flex justify-content-center align-items-center" id="only-photo">
-                <div class="col-5">
-                    <div class="post-info">
-                        <div class="d-flex justify-content-around">
-                            <p class="mt-3 ms-1"><strong>This is a crazy photo</strong></p>
-                            <p class="me-2 mt-3 ">01/12</p>
+            <div class="tab-pane" id="only-photo">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="col-6">
+                        <div class="post-info">
+                            <div class="d-flex justify-content-around">
+                                <p class="mt-3 ms-1"><strong>Explorando nuevos horizontes</strong></p>
+                                <p class="me-2 mt-3 ">01/12</p>
+                            </div>
+                            <div>
+                                <img src="https://cdn.pixabay.com/photo/2018/04/26/12/14/travel-3351825_1280.jpg" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="post-comments">
+                                <p class="mt-3 ms-3"><strong>204 likes</strong></p>
+                                <p class="mt-3 ms-3 me-3">La vida es corta, ¡haz que cada momento cuente! ✨ #CarpeDiem #Aventuras</p>
+                            </div>
                         </div>
-                        <div>
-                            <img src="https://cdn.pixabay.com/photo/2018/04/26/12/14/travel-3351825_1280.jpg" class="img-thumbnail" alt="...">
+                        <br>
+                        <div class="post-info">
+                            <div class="d-flex justify-content-around">
+                                <p class="mt-3 ms-1"><strong>Momentos simples y hermosos</strong></p>
+                                <p class="me-2 mt-3 ">02/12</p>
+                            </div>
+                            <div>
+                                <img src="https://cdn.pixabay.com/photo/2020/09/19/19/37/landscape-5585247_1280.jpg" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="post-comments">
+                                <p class="mt-3 ms-3"><strong>334 likes</strong></p>
+                                <p class="mt-3 ms-3 me-3">La belleza de lo cotidiano: Capturando momentos simples con corazón 💕📸</p>
+                            </div>
                         </div>
-                        <div class="post-comments">
-                            <p class="mt-3 ms-3"><strong>204 likes</strong></p>
-                            <p class="mt-3 ms-3 me-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit architecto assumenda, doloribus ipsam libero iure ab omnis ratione et beatae deleniti 
-                                harum impedit dolorem, non eos aliquid accusantium sapiente. Perferendis?</p>
+                        <br>
+                        <div class="post-info">
+                            <div class="d-flex justify-content-around">
+                                <p class="mt-3 ms-1"><strong>En casa!!</strong></p>
+                                <p class="me-2 mt-3 ">03/12</p>
+                            </div>
+                            <div>
+                                <img src="https://cdn.pixabay.com/photo/2018/04/26/16/31/marine-3352341_1280.jpg" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="post-comments">
+                                <p class="mt-3 ms-3"><strong>5604 likes</strong></p>
+                                <p class="mt-3 ms-3 me-3">Redefiniendo el significado de 'hogar': Historias desde mi rincón del mundo 🏡✨</p>
+                            </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="post-info">
-                        <div class="d-flex justify-content-around">
-                            <p class="mt-3 ms-1"><strong>This is a crazy photo</strong></p>
-                            <p class="me-2 mt-3 ">02/12</p>
+                        <br>
+                        <div class="post-info">
+                            <div class="d-flex justify-content-around">
+                                <p class="mt-3 ms-1"><strong>Colores de la vida</strong></p>
+                                <p class="me-2 mt-3 ">04/12</p>
+                            </div>
+                            <div>
+                                <img src="https://cdn.pixabay.com/photo/2013/02/01/18/14/url-77169_960_720.jpg" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="post-comments">
+                                <p class="mt-3 ms-3"><strong>243 likes</strong></p>
+                                <p class="mt-3 ms-3 me-3">Colores de la vida: Pintando mi camino con cada experiencia 🎨🌈</p>
+                            </div>
                         </div>
-                        <div>
-                            <img src="https://cdn.pixabay.com/photo/2020/09/19/19/37/landscape-5585247_1280.jpg" class="img-thumbnail" alt="...">
+                        <br>
+                        <div class="post-info">
+                            <div class="d-flex justify-content-around">
+                                <p class="mt-3 ms-1"><strong>Paz interior</strong></p>
+                                <p class="me-2 mt-3 ">05/12</p>
+                            </div>
+                            <div>
+                                <img src="https://cdn.pixabay.com/photo/2013/03/01/18/40/crispus-87928_1280.jpg" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="post-comments">
+                                <p class="mt-3 ms-3"><strong>2554 likes</strong></p>
+                                <p class="mt-3 ms-3 me-3">En busca de la calma interior: Reflexiones desde el corazón 💫🧘‍♂️</p>
+                            </div>
                         </div>
-                        <div class="post-comments">
-                            <p class="mt-3 ms-3"><strong>204 likes</strong></p>
-                            <p class="mt-3 ms-3 me-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit architecto assumenda, doloribus ipsam libero iure ab omnis ratione et beatae deleniti 
-                                harum impedit dolorem, non eos aliquid accusantium sapiente. Perferendis?</p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="post-info">
-                        <div class="d-flex justify-content-around">
-                            <p class="mt-3 ms-1"><strong>This is a crazy photo</strong></p>
-                            <p class="me-2 mt-3 ">03/12</p>
-                        </div>
-                        <div>
-                            <img src="https://cdn.pixabay.com/photo/2018/04/26/16/31/marine-3352341_1280.jpg" class="img-thumbnail" alt="...">
-                        </div>
-                        <div class="post-comments">
-                            <p class="mt-3 ms-3"><strong>204 likes</strong></p>
-                            <p class="mt-3 ms-3 me-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit architecto assumenda, doloribus ipsam libero iure ab omnis ratione et beatae deleniti 
-                                harum impedit dolorem, non eos aliquid accusantium sapiente. Perferendis?</p>
-                        </div>
-                    </div>
-                    <br>
-                    <!--4 imagen-->
-                    <div class="post-info">
-                        <div class="d-flex justify-content-around">
-                            <p class="mt-3 ms-1"><strong>This is a crazy photo</strong></p>
-                            <p class="me-2 mt-3 ">04/12</p>
-                        </div>
-                        <div>
-                            <img src="https://cdn.pixabay.com/photo/2013/02/01/18/14/url-77169_960_720.jpg" class="img-thumbnail" alt="...">
-                        </div>
-                        <div class="post-comments">
-                            <p class="mt-3 ms-3"><strong>204 likes</strong></p>
-                            <p class="mt-3 ms-3 me-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit architecto assumenda, doloribus ipsam libero iure ab omnis ratione et beatae deleniti 
-                                harum impedit dolorem, non eos aliquid accusantium sapiente. Perferendis?</p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="post-info">
-                        <div class="d-flex justify-content-around">
-                            <p class="mt-3 ms-1"><strong>This is a crazy photo</strong></p>
-                            <p class="me-2 mt-3 ">05/12</p>
-                        </div>
-                        <div>
-                            <img src="https://cdn.pixabay.com/photo/2013/03/01/18/40/crispus-87928_1280.jpg" class="img-thumbnail" alt="...">
-                        </div>
-                        <div class="post-comments">
-                            <p class="mt-3 ms-3"><strong>204 likes</strong></p>
-                            <p class="mt-3 ms-3 me-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit architecto assumenda, doloribus ipsam libero iure ab omnis ratione et beatae deleniti 
-                                harum impedit dolorem, non eos aliquid accusantium sapiente. Perferendis?</p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="post-info">
-                        <div class="d-flex justify-content-around">
-                            <p class="mt-3 ms-1"><strong>This is a crazy photo</strong></p>
-                            <p class="me-2 mt-3 ">06/12</p>
-                        </div>
-                        <div>
-                            <img src="https://cdn.pixabay.com/photo/2013/03/01/18/40/crispus-87928_1280.jpg" class="img-thumbnail" alt="...">
-                        </div>
-                        <div class="post-comments">
-                            <p class="mt-3 ms-3"><strong>204 likes</strong></p>
-                            <p class="mt-3 ms-3 me-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit architecto assumenda, doloribus ipsam libero iure ab omnis ratione et beatae deleniti 
-                                harum impedit dolorem, non eos aliquid accusantium sapiente. Perferendis?</p>
+                        <br>
+                        <div class="post-info">
+                            <div class="d-flex justify-content-around">
+                                <p class="mt-3 ms-1"><strong>Sueños cumplidos </strong></p>
+                                <p class="me-2 mt-3 ">06/12</p>
+                            </div>
+                            <div>
+                                <img style="width: 100%;"src="data:image/jpeg;base64,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" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="post-comments">
+                                <p class="mt-3 ms-3"><strong>5689 likes</strong></p>
+                                <p class="mt-3 ms-3 me-3">Caminando entre sueños: Persiguiendo pasiones y encontrando propósito 🚶‍♂️💭</p>
+                            </div>
                         </div>
                     </div>
                 </div>
